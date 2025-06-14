@@ -36,6 +36,8 @@ export default function App() {
   const handleSearchChange = (value: string) => setSearchTerm(value);
   const handlePageChange = (selected: number) => setCurrentPage(selected + 1);
 
+
+  
   return (
     <>
     <div className={css.app}>
